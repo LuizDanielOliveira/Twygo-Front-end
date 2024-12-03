@@ -1,0 +1,83 @@
+.navbar-wrapper {
+    position: relative;
+    z-index: 10;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #6a5acd;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    position: relative;
+  }
+  
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo-image {
+    height: 40px;
+  }
+  
+  .navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .navbar-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    white-space: nowrap;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar-links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar-link:hover {
+    color: #9baf95;
+  }
+  
+  .navbar-wave {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: url("../assets/wave.svg") repeat-x;
+    background-size: cover;
+    z-index: 10;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .navbar-title {
+      font-size: 18px;
+    }
+  
+    .navbar-logo-image {
+      height: 30px;
+    }
+  }
+  

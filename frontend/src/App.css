@@ -1,0 +1,148 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+
+.curso-list-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.curso-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.curso-list-header h1 {
+  margin: 0;
+}
+
+.curso-add-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.curso-add-button:hover {
+  background-color: #0056b3;
+}
+
+.curso-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.curso-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.curso-card h2 {
+  margin-bottom: 10px;
+}
+
+.curso-card video {
+  width: 100%;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.curso-delete-button {
+  padding: 10px;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.curso-delete-button:hover {
+  background-color: #cc0000;
+}
+
+
+.curso-form-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.curso-form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.curso-back-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.curso-back-button:hover {
+  background-color: #0056b3;
+}
+
+.curso-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.curso-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.curso-form input,
+.curso-form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.curso-form textarea {
+  resize: none;
+  height: 100px;
+}
+
+.curso-form-submit-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.curso-form-submit-button:hover {
+  background-color: #0056b3;
+}
