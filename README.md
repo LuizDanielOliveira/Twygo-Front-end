@@ -36,7 +36,8 @@ npm install
 
 
 
-Inicie o Servidor Para rodar o servidor local:
+Inicie o Servidor Para rodar o servidor local: 3001 
+#Muito importante iniciar o servidor backend primeiro ficar alocado da porta 3000, assim depois dar NPM START no front, e aceitar ficar no 3001, tanto para segurança tanto para o código atual! 
 
 npm start
 
