@@ -27,8 +27,9 @@ Certifique-se de que as seguintes ferramentas estejam instaladas:
 
 1. **Clone o Repositório**
    ```bash
-   git clone https://github.com/seu-usuario/twygo-frontend.git](https://github.com/LuizDanielOliveira/Twygo-Front-end)
-   cd frontend
+   git clone https://github.com/LuizDanielOliveira/Twygo-Front-end.git
+   cd Twygo-front-end + cd frontend
+
 
 
 npm install
