@@ -33,11 +33,10 @@ Certifique-se de que as seguintes ferramentas estejam instaladas:
 
 
 npm install
-# ou
-yarn install
+
+
 
 Inicie o Servidor Para rodar o servidor local:
 
 npm start
-# ou
-yarn start
+
